@@ -4,26 +4,28 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#content {
-    margin-left: 20%;
+#wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+#pic {
+
     width: 600px;
     height: 900px;
     border-radius: 20px 0px 0px 20px;
-    float: left;
     overflow: hidden;
 }
 
 #section {
 
     background-color: hsl(0, 0%, 100%);
-    display: flex;
     border-radius: 0px 20px 20px 0px;
-    margin-top: 5%;
-    width: 600px;
-    height: 900px;
-}
-
-#flex {
+    width: 500px;
+    height: 800px;
     padding: 50px;
 }
 
