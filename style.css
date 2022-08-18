@@ -9,6 +9,7 @@ body {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
 
 #pic img{
