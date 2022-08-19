@@ -1,6 +1,6 @@
 body {
     background-color: hsl(30, 38%, 92%);
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -9,11 +9,19 @@ body {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
-#pic img{
+#pic {
+    width: 260px;
     max-width: 100%;
+    height: 400px;
+}
+
+#pic img {
+    width: 260px;
+    max-width: 100%;
+    height: 400px;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -21,12 +29,12 @@ body {
 
     background-color: hsl(0, 0%, 100%);
     border-radius: 0px 20px 20px 0px;
-    width: 500px;
-    height: 800px;
-    padding: 50px;
+    width: 220px;
+    height: 360px;
+    padding: 20px;
 }
 
-#section h2 {
+#section h5 {
     text-transform: uppercase;
     color: hsl(228, 12%, 48%);
     font-weight: 500;
@@ -37,28 +45,28 @@ body {
 #section h1 {
     color: black;
     font-family: 'Fraunces', serif;
-    font-size: 72px;
+    font-size: 28px;
 
 }
 
 .description {
     color: hsl(228, 12%, 48%);
-    font-size: 28px;
+    font-size: 12px;
     font-weight: 500;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 
 }
 
 .price {
-    font-size: 68px;
+    font-size: 28px;
     color:hsl(113, 63%, 30%);
     font-family: 'Fraunces', serif;
 }
 
 s {
     color: hsl(228, 12%, 48%);
-    font-size: 30px;
-    margin-left: 50px;
+    font-size: 14px;
+    margin-left: 30px;
     font-family: 'Fraunces', serif;
 }
 
@@ -66,64 +74,89 @@ s {
     margin-top: 15px;
     width: 100%;
     color: hsl(0, 0%, 100%);
-    border-radius: 20px;
+    border-radius: 10px;
     height: 10%;
     cursor: pointer;
     background-color: hsl(101, 27%, 36%);
     border: 0px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 14px;
+    border: 1px solid rgb(128, 128, 128);
 }
+
 
 #buy-button:hover {
     background-color: hsl(101, 24%, 35%);
-    border: 3px solid rgb(128, 128, 128);
 }
 
 #buy-button:active {
     background-color: hsl(101, 20%, 30%);
-    box-shadow: -1px -1px rgb(128, 128, 128);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 535px) {
     #pic img {
         border-radius: 20px 20px 0px 0px;
         width: 100%;
+        height: 60%;
+    }
+
+    #pic {
+        height: 60%;
     }
 
     #section {
         border-radius: 0px 0px 20px 20px;
-        width: 100%;
         height: 20%;
-    }
-    #section h2 {
-        font-size: 9px;
-    
-    }
-    
-    #section h1 {
-        font-size: 30px;
-    
-    }
-    
-    .description {
-        font-size: 15px;
-    }
-    
-    .price {
-        font-size: 28px;
-    }
-    
-    s {
-        font-size: 10px;
-    }
-    
-    #buy-button {
-        font-size: 15px;
-    }
+        padding: 10px;
+        width: 240px;
 
-    svg {
-        width: 15px;
-        height: 15px;
     }
+    
+#section h5 {
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 8px;
+}
+
+#section h1 {
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+
+}
+
+.description {
+    color: hsl(228, 12%, 48%);
+    font-size: 10px;
+    font-weight: 500;
+
+}
+
+.price {
+    font-size: 18px;
+    color:hsl(113, 63%, 30%);
+    font-family: 'Fraunces', serif;
+}
+
+s {
+    color: hsl(228, 12%, 48%);
+    font-size: 10px;
+    margin-left: 30px;
+    font-family: 'Fraunces', serif;
+}
+
+#buy-button {
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    height: 20%;
+    cursor: pointer;
+    background-color: hsl(101, 27%, 36%);
+    border: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid rgb(128, 128, 128);
+}
 }
